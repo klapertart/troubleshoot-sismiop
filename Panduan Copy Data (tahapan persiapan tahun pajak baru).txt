@@ -1,0 +1,12 @@
+-------------- Panduan Copy Data -----------------------
+
+1. Pilih menu Pendataan > Persiapan > Copy DBKB, ZNT, TP SPPT Massal Tahun Sebelum
+
+2. Isi field Propinsi, dan Kota dengan tekan tombol F9
+
+3. Isi field Tahun >> Field tahun ini diisi tahun sebelumnya, contohnya untuk kebutuhan data tahun 2014, 
+maka isi field ini dengan tahun 2013.
+
+4. Setelah diisi semua, tekan tombol "Proses".
+
+-------------- Selesai ----------------------------

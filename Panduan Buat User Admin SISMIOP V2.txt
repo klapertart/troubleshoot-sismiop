@@ -1,0 +1,14 @@
+Konfigurasi USER ADMIN aplikasi SISMIOP V2
+
+
+1. Buka database dengan aplikasi Navicate/TOAD.
+
+2. Buka tabel DAT_LOGIN pada database PBB.
+
+3. Insert record baru. NM_LOGIN isi dengan 060000000, NIP isi dengan 060000000, PASSWORD isi dengan sismiop
+
+4. Simpan.
+
+
+NB:
+* User ini dipakai ketika masuk ke aplikasi SISMIOP V2

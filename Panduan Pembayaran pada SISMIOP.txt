@@ -1,0 +1,11 @@
+Pembayaran via SISMIOP
+
+1. Buka menu Pembayaran > Pencatatan Pembayaran > Pencatatan TUnggal
+
+2. Pilih Input Pembayaran > Manual (Input NOP)
+
+3. Isi field Tanggal Bayar, NOP, Tahun Pajak.
+
+4. Untuk field Angka Kontrol, isi dulu sembarang kemudian klik tab, nanti sistem memberitahu angka yang seharusnya diisi, lalu isikan.
+
+5. Klik tombol Simpan.

@@ -1,0 +1,12 @@
+Cara Mengganti Nama Kepala Dinas
+
+1. Masuk ke menu Referensi >> Kepegawaian >> Pegawai
+
+2. Masukan Identitas Pengguna (kepala dinas yang sedang dipakai) [tekan tombol tab], ketika muncul dialog box, klik "ya"
+
+3. Ubah field >> Nama Pegawa & NIP (isi dengan data kepala dinas yang baru) [tekan tombol tab]
+
+4. Klik tombol "Simpan"
+
+
+--------------Selesai-------------

@@ -1,0 +1,65 @@
+Prosedur Pemekaran/Pembuatan Kelurahan/Desa baru.
+
+
+Proses:
+---------------------- Buat data Kelurahan/Desa baru --------------------------------
+
+1. Pilih menu Referensi > Wilayah > Pilih tab 'Kelurahan'
+
+2. Tambahkan data-data kelurahan baru, sesuaikan data-nya dengan kebutuhan yang ada.
+
+3. Setelah semua data kelurahan diisi, klik tombol 'Simpan'.
+
+
+
+Proses:
+------------------------- Buat data Blok Kelurahan/Desa tersebut -------------------
+
+1. Pilih menu Persiapan > Pembuatan ZNT > Pembuatan Tabel Blok
+
+2. Isi data Propinsi, Kota/Kab, Kecamatan, sesuai dengan kelurahan baru berada, 
+   dan isi juga nama kelurahan baru (yang dibuat pada proses sebelumnya). 
+
+3. Isi Kode Blok (disesuaikan dengan data yang ada / data yang akan dibuat pada kelurahan tersebut).
+
+4. Status Peta tidak perlu diisi/diceklis.
+
+5. Setelah semua selesai diisi, klik tombol 'Simpan'.
+
+
+Proses:
+------------------------- Buat data ZNT Kelurahan/Desa tersebut -------------------
+
+1. Pilih menu Persiapan > Pembuatan ZNT > Pembuatan Tabel Peta ZNT
+
+2. Isi data Propinsi, Kota/Kab, Kecamatan, Kelurahan, dan Blok.
+
+3. Isi ZNT (disesuaikan dengan kebutuhan untuk Blok tersebut).
+
+4. Setelah semua selesai diisi, klik tombol 'Simpan'.
+
+CATATAN: Proses isi ZNT ini dilakukan sebanyak jumlah Blok di kelurahan tersebut,
+Karena prosesnya hanya bisa mengisi data ZNT untuk 1 Blok.
+
+
+Proses:
+------------------------- Buat data NIR Kelurahan/Desa tersebut -------------------
+
+1. Pilih menu Persiapan > Pembuatan ZNT > Perubahan NIR
+
+2. Isi data Propinsi, Kota/Kab, Kecamatan, Kelurahan, Tahun, untuk No. Dokumen isi bebas.
+
+3. Isi ZNT dan NIR (disesuaikan dengan kebutuhan untuk ZNT tersebut).
+
+4. Isi data Tgl Pendataan, Tgl Pemeriksaan, NIP Pendata, dan NIP Pemeriksa.
+
+5. Setelah semua selesai diisi, klik tombol 'Simpan'.
+
+
+
+--------------------------- Selesai ------------------------------------------
+
+
+
+
+

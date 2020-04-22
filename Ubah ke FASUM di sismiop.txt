@@ -1,0 +1,6 @@
+Masuk ke menu Pendaataan > Pendataan Objek Pajak -> Input/Update SPOP/LSPOP
+
+Jenis Formulis: SPOP
+Jenis Transaksi: Pemutakhiran data
+
+ubah jenis bumi jadi 4 : Fasilitas Umum

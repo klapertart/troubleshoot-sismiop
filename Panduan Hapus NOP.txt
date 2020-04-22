@@ -1,0 +1,97 @@
+---------------------------------------- Panduan Hapus NOP -----------------------------------------------
+
+1). Secara Permanent
+
+##========================================== Via Aplikasi Navicate/ToAD =========================================
+
+Catatan: Semua Trigger harus aktif, (caranya buka navicate, buka database, klik tab OTHERS > Triggers, select all, klik kanan 'Maintain > Enable' )
+
+Masuk ke database (via Navicate / Toad)
+
+Jalankan query berikut:
+
+DELETE FROM DAT_OBJEK_PAJAK
+WHERE
+KD_PROPINSI = [kode_propinsi]
+AND KD_DATI2 = [kode_dati2]
+AND KD_KECAMATAN = [kode_kecamatan]
+AND KD_KELURAHAN = [kode_kelurahan]
+AND KD_BLOK = [kode_blok]
+AND NO_URUT = [nomor_urut]
+AND KD_JNS_OP = [kode_jenis_op];
+
+Contoh:
+
+NOP yang akan dihapus > 16.76.040.004.003.0071.0
+
+DELETE FROM DAT_OBJEK_PAJAK
+WHERE
+KD_PROPINSI = '16'
+AND KD_DATI2 = '76'
+AND KD_KECAMATAN = '040'
+AND KD_KELURAHAN = '004'
+AND KD_BLOK = '003'
+AND NO_URUT = '0071'
+AND KD_JNS_OP = '0';
+
+
+
+
+##========================================== Via Aplikasi SISMIOP =========================================
+
+----------------------------------------- Menghilangkan tagihan ------------------------------------------
+
+a. NOP yang mau dihapus (diubah) harus sudah tidak punya tagihan, bisa dilakukan dengan membayar tagihannya, atau dibatalkan SPPT-nya.
+
+b. Untuk Pembayaran, masuk ke menu Pembayaran > Pencatatan Pembayaran > Pencatatan Tunggal, lakukan pembayaran.
+
+
+
+------------------------------------------------ Hapus NOP -----------------------------------------------
+
+>> Berikut menghapus data SPOP
+
+a. Masuk ke menu Pendataan > Pendataan Obyek Pajak > Input/Update SPOP/LPSOP
+
+b. Pilih Jenis Formulir > SPOP 
+
+c. Jenis Transaksi pilih 'Penghapusan OP'
+
+d. Masukan Nomor Formulir (bebas), NOP, NOP Bersama (jika ada), dan NOP Asal (jika ada)
+
+e. Ketika informasi detail tampil, tekan tombol 'Hapus'.
+
+
+>> Berikut menghapus data LSPOP
+
+a. Masuk ke menu Pendataan > Pendataan Obyek Pajak > Input/Update SPOP/LPSOP
+
+b. Pilih Jenis Formulir > LSPOP 
+
+c. Jenis Transaksi pilih 'Penghapusan Data Bangunan'
+
+d. Masukan Nomor Formulir (bebas), NOP, NOP Bersama (jika ada), dan NOP Asal (jika ada)
+
+e. Ketika informasi detail tampil, tekan tombol 'Hapus'.
+
+
+
+
+
+2). Secara Semi Permanent
+
+----------------------------------------- Ubah NOP ke Fasilitas Umum ---------------------------------------
+
+>> Berikut mengubah data SPOP
+
+a. Masuk ke menu Pendataan > Pendataan Obyek Pajak > Input/Update SPOP/LPSOP
+
+b. Pilih Jenis Formulir > SPOP 
+
+c. Jenis Transaksi pilih 'Pemutakhiran Data OP'
+
+d. Masukan Nomor Formulir (bebas), NOP, NOP Bersama (jika ada), dan NOP Asal (jika ada)
+
+e. Ketika informasi detail tampil, di field 'Jenis Tanah' ubah jadi Fasilitas Umum, dengan menekan F9.
+
+f. Klik tombol 'Simpan'

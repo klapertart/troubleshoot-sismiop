@@ -1,0 +1,4 @@
+Panduan Edit Register SISMIOP
+
+1. Buka Regedit: HKEY_LOCAL_MACHINE -->Software -->Oracle
+2. Edit file 'FORMS60_PATH' & 'REPORTS60_PATH' sesuaikan dengan folder SISMIOP yang dipakai

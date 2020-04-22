@@ -1,0 +1,8 @@
+---------Input Kode Bank (Persepsi, Tunggal, Tempat Pembayaran)
+
+1. Menu Referensi > Tempat Pembayaran
+2. Urutannya Bank Tunggal, Bank Persepsi, Tempat Pembayaran
+	* Jika ingin mengisi kode Tempat Pembayaran pastikan kode Bank Tunggal & Bank Persepsi ada/sudah diinput
+	* Jika ingin mengisi kode Bank Persepsi pastikan kode Bank Tunggal ada/sudah diinput
+	* Jika ingin mengisi kode Bank Tunggal langsung saja
+ 

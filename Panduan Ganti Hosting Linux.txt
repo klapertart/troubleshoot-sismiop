@@ -1,0 +1,18 @@
+1. Ubah file >> /etc/hosts
+2. Ubah file >> /etc/sysconfig/network
+
+Restart network : 
+
+$ service network restart
+
+Restart/Reboot system/OS : 
+
+$ reboot
+
+3. Ubah HOST di file listener.ora
+4. Ubah HOST di file tnsnames.ora
+
+Restart oracle :
+
+$ service oracle stop
+$ service oracle start

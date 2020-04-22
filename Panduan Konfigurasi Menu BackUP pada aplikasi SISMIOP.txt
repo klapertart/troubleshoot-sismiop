@@ -1,0 +1,68 @@
+-----------CARA MENAMBAHKAN MENU 'BACKUP DATA' PADA APLIKASI SISMIOP------------
+
+1). Set ORACLE_HOME 
+
+Buka command prompt (windows), ketikan >> SET ORACLE_HOME = [path oracle]
+
+Contoh:
+
+SET ORACLE_HOME = C:\oracle\product\10.2.0    [enter]
+
+
+
+2). Set ORACLE_SID
+
+Buka command prompt (windows), ketikan >> SET ORACLE_SID = [sid]
+
+Contoh:
+
+SET ORACLE_SID = sismiop   [enter]
+
+
+
+3). Buat NETWORK_LINK
+
+NETWORK_LINK ini berfungsi sebagai penghubung client ke database server.
+
+Buka SQLPLUS, ketikan >> CREATE DATABASE LINK [remote links name] CONNECT TO [target db user] IDENTIFIED BY [target db password] USING '[hostname:port/service_name]'
+
+Contoh:
+
+CREATE DATABASE LINK dbserverlink CONNECT TO PBB IDENTIFIED BY PBB USING '192.168.10.11:1521/sismiop';     [enter]
+
+
+NB:
+Untuk mengetes apakah network_link sudah bisa atau tidak,
+ketikan >> SELECT * FROM [tables name]@[network_link]
+
+Contoh: 
+
+SELECT * FROM SPPT@dbserverlink   [enter]
+
+
+
+4). Add/Edit connection string di Oracle - OraDB_Home
+
+Contoh:
+
+a. Masuk ke All Program >> Oracle - OraDb10g_home1 >> Configuration and Migration Tools >> Net Configuration Assistant.
+
+b. Pilih option >> Local Net Service Name configuration
+
+c. Pilih 'Add' jika belum ada connection string, atau pilih 'Reconfigure' jika sudah ada
+
+d. Ketik Service Name, contoh: sismiop
+
+e. Pilih protokol >> TCP
+
+f. Masukan Host name (IP database server), lalu pilih port yang digunakan database server
+
+g. Lakukan test, jika berhasil berarti telah sukses. Jika gagal, cek kembali konfigurasi sebelumnya, cek network, cek oracel database server.
+
+
+
+5). File backup akan tersimpan di server database.
+Berikut path-nya >> /home/oracle/app/admin/sismiop/dpdump
+
+Nama DMP file >> PBB_BACKUP_[date]_[time].dmp 
+Nama Log file >> PBB_BACKUP_[date]_[time].txt

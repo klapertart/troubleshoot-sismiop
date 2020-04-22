@@ -1,0 +1,20 @@
+---------------- Panduan menambah User Baru pada Aplikasi Sismiop -----------------------------
+
+1. Buka aplikasi SISMIOP, login sebagai administrator (username default: 060000000, password default: sismiop)
+
+2. Masuk ke menu File > Administrasi User
+
+3. Klik tombol 'User Baru'
+
+4. Isi field 'User Id' >> Daftar User Id bisa dilihat di menu Referensi > Kepegawaian, pilih tab 'Pegawai', 
+pada frame 'Data Yang Sudah Ada' lihat di kolom 'User ID'.  Setelah diisi klik tab.
+
+5. Isi field 'Password Administrator'
+
+6. Isi field 'Password Baru' sebagai password user tersebut.
+
+7. Isi field 'Ulangi Password Baru' sama dengan field 'password Baru'. Klik tab
+
+8. Ketika ada dialog box, tekan tombol 'Ya'.
+
+-------------------------- Selesai --------------------------------

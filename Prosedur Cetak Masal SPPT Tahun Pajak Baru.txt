@@ -1,0 +1,21 @@
+------- Prosedur Cetak Masal SPPT Tahun Pajak Baru
+
+1. Lakukan copy data DBKB, ZNT, TP SPPT Massal dari tahun sebelumnya.
+
+Menu : Pendataan > Persiapan > Copy DBKB, ZNT, TP SPPT Massal Tahun Sebelum.
+
+2. Edit data yang terkait dengan Penetapan (JIKA DIPERLUKAN).
+
+Contoh: update NIR, NJOPTKP, Tempat Pembayaran Masal, Nama Pejabat, Data OP, atau yang lainnya.
+
+3. Lakukan Penilaian Masal (Kalibrasi).
+
+Menu: Peniliaian > Penilaian Masal.
+
+4. Setting Tempat Pembayaran Masal Elektronik (JIKA DIPERLUKAN).
+
+Menu: Penetapan > Tempat Pembayaran Elekronik
+
+5. Penetapan & Pencetakan Masal.
+
+Menu: Penetapan > Penetapan & Pencetakan Masal.

@@ -1,0 +1,15 @@
+Step 1:
+
+Untuk pegawai [NAMA KEPALA BARU] ( NIP : [NIP KEPALA BARU]) ini sudah sudah ada di tabel PEGAWAI dan POSISI_PEGAWAI belum mas? Jika belum tambahkan dulu.
+
+Step 2:
+
+Pastikan untuk pegawai [NAMA KEPALA BARU] ( NIP : [NIP KEPALA BARU]) di tabel POSISI_PEGAWAI di kolom KD_JABATAN isi dengan angka 10
+
+Step 3:
+
+Ubah data pegawai [NAMA KEPALA LAMA] ( NIP : [NIP KEPALA LAMA]) di tabel POSISI_PEGAWAI di kolom KD_JABATAN jangan diisi angka 10, isi dengan angka lain sesuai jabatan.
+
+Step 4:
+
+Coba print ulang.

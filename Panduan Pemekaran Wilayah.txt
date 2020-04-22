@@ -1,0 +1,36 @@
+PROSEDUR PEMEKARAN WILAYAH:
+
+Proses 1:  Aktifkan semua triger di seluruh tabel
+-------------------------------------------------
+
+caranya:
+
+a. Buka Navicate, Buka database PBB
+
+b. Pada menu 'Others' pilih Trigger
+
+c. Setelah semua trigger muncul,pilih trigger-triger yang pada icon-nya tidak terdapat tanda seru dan di kolom 'Enable'-nya masih tertulis disable,
+Klik kanan pada trigger-nya, pilih 'Maintain', lalu pilih 'Enable'.
+
+
+
+Proses 2: Pemindahan Wilayah
+----------------------------
+
+>> KASUS Pemindahan ke Wilayah Baru
+
+a. Buat Wilayah baru (Kecamatan atau dan Kelurahan), di menu Referensi -> Wilayah.
+b. Buat Blok baru, di menu Pendataan -> Persiapan -> Pembuatan ZNT -> Pembuatan Blok.
+c. Buat ZNT & NIR di Wilayah baru tersebut, di menu Pendataan -> Persiapan -> Pembuatan ZNT -> Perubahan NIR.
+d. Setting Tempat Pembayaran Masal, di menu > Referensi -> Tempat Pembayaran SPPT Massal.
+   - Isi Data Propinsi, Kota, Kecamatan (yang diinginkan), Tahun (sekarang). 
+   - Kemudian isi juga data kelurahan & Nama Kelurahan (yang diinginkan), 
+   - terus isi kode Bank Tunggal (BT), Bank Persepsi (BP), Kode Tempat Pembayaran, dan Nama Tempat Pembayaran.
+   - Kemudian 'Simpan'
+e. Buat Tabel Peta ZNT, di menu Pendataan -> Persiapan -> Pembuatan ZNT -> Pembuatan Tabel Peta ZNT
+
+
+>> Kasus Pemindahan ke Wilayah yang sudah ada
+
+a. Cek apakah ZNT dan NIR dari NOP yang akan dipindahkan sudah ada di wilayah tersebut, jika belum, maka buat (seperti yg sudah dijelaskan di kasus sebelumnya).
+

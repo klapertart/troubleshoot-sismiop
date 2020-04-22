@@ -1,0 +1,7 @@
+---------- Panduan generate file semua.txt ------------------
+
+1. Backup dulu database pbb
+
+2. Masuk sqlplus menggunakan user pbb/pbb@sismop
+
+3. Generate file dengan script >> @[path]/semua.txt  [enter]

@@ -1,0 +1,22 @@
+STEP By STEP Merubah Nilai Tarif
+
+1. Pilih Menu Referensi > Buku/NJOPTKP/Tarif
+
+2. Pilih Tab "Tarif"
+
+3. Isi field Pop, Kota, Tahun (Awal), Tahun (Akhir), Nilai NJOP (Min), Nilai NJOP (Max), dan terakhir Nilai %  (nilai tarif)
+
+
+Contoh:
+
+		    Tahun		          Nilai NJOP
+Prop	Kota	Awal	Akhir		Min			Max			Nilai %
+61	03	1999	9999		0			999,999,999		0.1
+61	03	1999	9999		1,000,000,000		999,999,999,999		0.2
+
+
+
+
+
+________________________Selesai________________________
+   

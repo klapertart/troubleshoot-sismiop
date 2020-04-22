@@ -1,0 +1,11 @@
+Langkah import data (csv) ke table
+
+1. Klik kanan pada nama table, kemudian pilih 'Import Wizard'.
+2. Pilih option 'CSV file (*.csv)', kemudian klik tombol Next.
+3. Pada field 'Import from:' klik tombol dengan icon (...), kemudian pilih file csv yang sudah disiapkan, kemudian klik tombol Next.
+4. Pada window 'Delimiter' tidak ada yang perlu disetting, lanjut dengan klik tombol Next.
+5. Jika pada file csv tidak ada baris judul, isikan pada 'Field Name Row' dengan 0, lalu 'First Data Row' dengan 1, kemudian klik tombol Next.
+6. Pada kolom 'Target Table' pilih nama table yang sudah dibuat, contoh pilih table 'TEMP_NOP_TO_FASUM', kemudian klik tombol Next.
+7. Pada kolom 'Source Field' pilih data yang ada, biasanya 'f1', kemudian klik tombol Next.
+8. Pada window 'Append' tidak ada yang perlu disetting, lanjut dengan klik tombol Next.
+9. Klik tombol Start, jika proses import sudah selesai, klik tombol Close.

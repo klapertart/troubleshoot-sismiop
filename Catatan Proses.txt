@@ -1,0 +1,51 @@
+>>-- PROSES PENETAPAN
+* Tanggal terbit (diinputkan di form)
+* Tanggal cetak (diambil dari sistem)
+* Penetapan pertama kali, kolom 'Siklus_SPPT' diisi 1, dan ditambah 1 setiap kali penetapan ulang
+* Penetapan Ulang: akan mengupdate semua field, status pembayaran kembali 0
+* Data di tabel PEMBAYARAN_SPPT tidak dihapus, tapi ditambah
+
+>>-- PROSES PENGHAPUSAN
+* Jika menghapus NOP akan tercatat di tabel PENGHAPUSAN_OP
+* Jika menghapus Data Bangunan akan tercatat di tabel PENGAHAPUSAN_BNG
+
+>>-- NJOPTKP
+* Jika WP punya lebih dari 1 OP, maka pada proses Penilaian Masal (fungsi NJOPTKP_TGH) 
+akan memilih NOP dengan Total NJOP (Bumi + Bangunan) yang paling besar untuk mendapatkan NJOPTKP
+
+Penentuan NJOPTKP di SISMIOP dilakukan secara :
+
+
+
+1. Otomatis : ketika proses Penilaian Masal & Penilaian individu (ada dalam proses Penetapan Terseleksi), dengan syarat WP tersebut :
+
+
+
+a). Jika OP punya 1 dan berjenis bumi dan bangunan (dan tidak punya cabang).
+
+    
+b). Jika OP punya lebih dari 1, asalkan salah satu diantara OP-nya berjenis bumi dan bangunan (dan tidak punya cabang), maka yang akan dikenakan NJOPTKP adalah yang paling besar NJOP-nya, meskipun OP yang terkena tersebut tidak punya bangunan.
+
+
+
+2. Manual : ada pada form Pemberian Flag NJOPTKP, WP yang bisa memberikan flag NJOPTKP adalah yang punya lebih dari 1 OP dan salah satu diantaranya berjenis bumi dan bangunan. Setelah itu lakukan Penilaian dan Penetapan ulang.
+
+
+>>-- Perubahan NJOP TANAH/BUMI
+
+Dilakuan dengan merubah NIR, nilai NIR ini akan di kondisikan di tabel KELAS_TANAH, range nilainya dan range tahun pajaknya,
+maka diambil nilai permeter tanahnya.
+
+>>-- Yang mempengaruhi Nilai Bangunan
+Prosesnya:
+1. Update harga resource
+2. Update harga DBKB
+3. Update NIR
+4. Update LSPOP
+--
+5. Penilaian Masal
+6. Penetapan
+
+>>-- PROSES MUTASI
+
+Akan menerbitkan lagi tagihan (sppt - status pembayaran jadi 0 kembali) meskipun sudah bayar

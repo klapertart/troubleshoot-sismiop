@@ -1,0 +1,10 @@
+*pastikan user yang melakukan langkah berikut adalah user administrator
+
+1. Menu Referensi >> Kepegawaian
+2. Tab Pegawai (isi)
+3. Tab Posisi Pegawai (isi)
+4. Menu File >> Administrasi User
+5. Klik tombol User Baru
+6. Isikan NIP Pegawai (sesuai dengan NIP ketika proses No. 2), Pilih User Pemakai Aktif, Untuk field "Password User Peubah" diisi dengan password user yang sedang login,
+   Sedangkan field "Password Baru" dan "Ulangi Password Baru" diisi untuk password user baru.
+7. Tekan tombol Tab, sampai muncul alert, dan klik tombol YES/OK.

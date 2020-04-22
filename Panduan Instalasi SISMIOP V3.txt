@@ -1,0 +1,12 @@
+>> Installasi SIMIOP
+
+1. Copykan file F_LOGIN.fmx, F_MAINSKB.fmx & M_MAINSKB.mmx ke folder C:\SIMPBB
+2. Cypykan file F_121.fmx ke folder C:\SIMPBB\FORM\
+
+
+>> Buat shortcut aplikasi SISMIOP pada desktop
+1. Copy shortcut aplikasi SISMIOP yang ada, kemudian paste, dan rename (untuk membedakan dengan sismiop yang ada)
+2. Klik kanan icon shortcut tersebut, pilih Propertis.
+3. Pada Tab Shortcut, kolom Target kemudian edit dengan sript berikut:
+   "C:\orant\BIN\ifrun60.EXE C:\SIMPBB\f_mainskb.fmx [user]/[password]@[sismiop]" --- contoh >> "C:\orant\BIN\ifrun60.EXE C:\SIMPBB\f_mainskb.fmx pbb/pbb@sismiop"
+4. Selesai.

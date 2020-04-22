@@ -1,0 +1,42 @@
+Tahapan Mengubah NOP ke Fasilitas Umum Tanpa Melunasi Hutang.
+
+
+Proses 1: 
+---------
+Buat table temporari untuk menyimpan semua data NOP, berikut query pembuatan table temporari:
+CREATE TABLE "TEMP_NOP_TO_FASUM" ("NOP" VARCHAR2(30 BYTE) NOT NULL)
+
+
+
+Proses 2: 
+---------
+Import table csv ke table TEMP_NOP_TO_FASUM. (Caranya ada di file >> Panduan Import Data CSV to Table.txt)
+
+
+
+Proses 3:
+---------
+Eksekusi query berikut pada Navicate, dengan tujuan mengubah status tagihan NOP menjadi lunas:
+
+UPDATE SPPT
+SET STATUS_PEMBAYARAN_SPPT='1'
+WHERE KD_PROPINSI||KD_DATI2||KD_KECAMATAN||KD_KELURAHAN||KD_BLOK||NO_URUT||KD_JNS_OP in (SELECT NOP FROM TEMP_NOP_TO_FASUM)
+
+
+Proses 4:
+---------
+Eksekusi query berikut pada Navicate, dengan tujuan mengubah status jenis tanah menjadi Fasilitas Umum:
+
+UPDATE DAT_OP_BUMI
+SET JNS_BUMI='4'
+WHERE KD_PROPINSI||KD_DATI2||KD_KECAMATAN||KD_KELURAHAN||KD_BLOK||NO_URUT||KD_JNS_OP in (SELECT NOP FROM TEMP_NOP_TO_FASUM)
+
+
+
+Proses 5: 
+---------
+Lakukan Penilaian Masal dan Penetepan Masal untuk untuk wilayah dimana NOP tersebut berada.
+
+
+Selesai
+---------

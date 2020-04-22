@@ -1,0 +1,16 @@
+Panduan drop user PBB
+
+1. Pastikan pakai user 'oracle' di centos.
+2. Pastikan tidak ada yang mengakses database PBB.
+3. Masuk ke sqlplus, ketikan script berikut>>: sqlplus / as sysdba [enter]
+4. Ketika sudah masuk sqlplus ketikan script berikut: drop user pbb cascade; [enter]
+5. Selesai.
+
+Panduan create user PBB
+1. Pastikan pakai user 'oracle' di centos.
+2. Masuk ke sqlplus, ketikan script berikut>>: sqlplus / as sysdba [enter]
+3. Ketika sudah masuk sqlplus ketikan script berikut: create user pbb idetified by pbb; [enter]
+4. Selajutnya masih dalam sqlplus, ketikan script berikut: grant dba to pbb; [enter]
+5. Selesai.
+
+*untuk keluar dari sqlplus ketikan 'exit'

@@ -1,0 +1,20 @@
+Panduan RESIZE Harddisk VBox
+
+1. Di path file vdi-nya:
+
+Misalnya: file vdi ada di drive C:\tes.vdi
+Meresizenya: C:\> VBoxmanage modify tes.vdi --resize 50000   *menaikan kapasitas jadi 50GB
+
+2. Di luar path file vdi-nya:
+
+Misalnya: file vdi ada di drive D:\tes.vdi
+Meresizenya: C:\> VBoxmanage modify "D:\tes.vdi" --resize 50000
+
+--------------------
+
+Catatan:
+
+Jika perintah VBoxmanage tidak diketahui sistem, tambahkan path aplikasi virtualbox di path - environment variables,
+kemudian komputer restart.
+
+Contoh pathnya: "C:\Program Files\Oracle\VirtualBox"

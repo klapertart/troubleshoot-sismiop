@@ -1,0 +1,14 @@
+SETTING REPORT BUILDER - TO PDF
+
+Ubah parameter berikut (lokasi: System Parameters)
+
+1. DESFORMAT : (Set Initial Value = File) 
+2. DESNAME (Set Initial Value = [path plus filename] -> contoh c:\dummy.pdf)   *ini destinasi file*
+3. DESFORMAT (Set Initial Value = pdf) 
+4. MODE (Set Initial Value = Bitmap) 
+
+
+
+-----------ATAU
+
+Hanya merubah MODE (Set Initial Value = Bitmap)

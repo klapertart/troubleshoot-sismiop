@@ -1,0 +1,18 @@
+Konfigurasi aplikasi SISMIOP V2
+
+1. Copy-kan folder aplikasi sismiop ke drive C:\
+
+2. Rename folder tersebut menjadi >> sismiop
+
+3. Klik kanan pada shortcut Sismiop di Desktop, pilih 'Properties', pilih tab 'Shortcut', pada field 'Target' : 
+
+Ubah path berikut:
+
+C:\orant\BIN\ifrun60.EXE f_main.fmx u060000000/sismiop@linux
+
+menjadi path berikut:
+
+C:\orant\BIN\ifrun60.EXE f_main.fmx pbb/pbb@sismiop
+
+
+------------- Selesai ----------------

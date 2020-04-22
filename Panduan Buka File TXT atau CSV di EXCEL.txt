@@ -1,0 +1,14 @@
+1. Buka Ms. Excel (contoh: Mx. Excel 2010)
+
+2. Pilih menu Data > From Text
+
+3. Pilih file hasil konversi, contoh >> R_DHKP.txt / R_DHKP.csv, klik tombol 'import'
+
+4. Ketika window import terbukan, pilih option Delimited, klik tombol 'Next'
+
+5. Pilih jenis Delimiters yang dipakai ketika konversi ke file txt/csv, 
+   contoh: saya pakai karakter titik koma ketika proses ekspor sebelumnya di sismiop (maka saya ceklis titik koma comma), lalu klik tombol 'Next'
+
+6. Di Window berikut-nya pilih option Text, dan bagian bawah (Data preview) block semua, lalu klik Finish
+
+7. Jika ada window yang muncul, klik 'Ok'

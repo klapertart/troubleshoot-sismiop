@@ -1,0 +1,35 @@
+Proses Input NOP Massal
+
+----------------- Input Pelayanan Perekaman Data Op Baru -------------
+
+1. Masuk ke menu PST > Input Permohonan Pelayanan PST
+
+2. Pada Status Kolektif pilih 'Massal/Kolektif', lalu isi field-field yg dibutuhkan, klik tombol 'Simpan'
+
+3. Setelah klik tombol 'Simpan', lalu klik tombol 'Data Kolektif'
+
+4. Isikan NOP-NOP baru, setelah selesai klik tombol 'Simpan'
+
+
+
+----------------- Pengisian Data Detail NOP ---------------------------
+
+*proses ini dilakukan per NOP *
+
+
+1. Masuk ke menu Pendataan > Pendataan Obyek Pajak > Input/Update SPOP/LSPOP
+
+2. Jenis Formulir pilih 'SPOP', untuk Jenis Transaksi pilih 'Perekaman Data OP'
+
+3. Ini No. Formulir (bebas)
+
+4. Isi NOP (diisi manual, tidak otomatis)
+
+5. Isi NOP Bersama & NOP Asal (jika ada)
+
+6. Nanti akan muncul form detail NOP, Silahkan isi disesuaikan dengan datanya, setelah selesai klik tombol 'Simpan'
+
+
+*Jika NOP tersebut punya bangunan, lakukan proses diatas (Pengisian Data Detail NOP),
+dengan CATATAN: Jenis formulif pilih yang 'LSPOP'
+

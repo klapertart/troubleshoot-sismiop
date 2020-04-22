@@ -1,0 +1,26 @@
+list port yang terbuka:
+iptables -nvxL
+
+edit/add/delete port:
+
+/etc/sysconfig/iptables
+
+
+
+
+
+GRANT ALL PRIVILEGES ON SW_TAX_O2W_KOTAPANGKALPINANG.* TO 'sw_user'@'192.168.10.6' WITH GRANT OPTION;
+CREATE USER 'admin_user'@'localhost' IDENTIFIED BY 'admin_pwd';
+CREATE USER 'gw_user'@'localhost' IDENTIFIED BY 'gw_pwd';
+
+
+
+
+
+devel mysql:
+192.168.26.11
+
+PuTTY & MySQL
+user: root
+password: rahasiav51
+

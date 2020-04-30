@@ -1,0 +1,14 @@
+Panduan koneksi database di oracle home (client)
+
+1. Klik All Programs
+2. Pilih > Oracle for Windows NT
+3. Pilih > Oracle Net8 Easy Config
+
+4. Pilih option Modify, cari existing service dengan nama SISMIOP (biasanya sudah dibuatkan), kemudian tekan tombol Next.
+
+5. Pilih TCP/IP, tekan tombol Next.
+6. Masukan Host Name / IP server oracle, gunakan port standar 1521.
+7. Masukan Database SID, biasanya memakai > sismiop, atau sesuaikan dengan settingan server kalau memang beda, tekan tombol Next.
+8. Tekan tombol Test Service.
+9. Masukan user/password, tekan tombol test, jika sukses, maka telah berhasil.
+10. tekan tombol fisnish.
